@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+.links img{
+    width: 100px;
+}
+.links li{
+    list-style: none;
+}
+.fa-bars{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+.bar{
+    background-color: gainsboro;
+    width: 100vh;
+    margin-top: -10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -10px;
+    border-left: 3px solid rgba(0, 0, 0, 0.123);
+}
+.links{
+    padding: 10px;
+    position: relative;
+}
+.links::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    height: 1px;
+    background-color: gainsboro;
+}
+
+.transform li{
+    list-style: none;
+}
+.transform a{
+    text-decoration: none;
+    color: green;
+}
+.transform ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.transform{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-100vh);
+}
+.project{
+    border-bottom: 2px solid rgba(51, 50, 50, 0.123);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project h1{
+    transform: translateY(-100px);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'emoji';
+}
+.imges{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.imges a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #000;
+    padding: 15px;
+    color:#fff;
+    width: 120px;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color:rgb(25, 82, 47); ;
+    transform: translateX(-70px);
+}
+.pro1{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro1.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 62%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro1 .content{
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    left: 10%;
+    color: #fff;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 3px 5px 4px #000;
+    flex-direction: column;
+}
+
+.pro1 .content a{
+    transform: translateX(-170px);
+}
+.pro2{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro2.jpg');
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    width: 38%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.pro2 .content{
+    position: absolute;
+    /* color: rgb(25, 82, 47); */
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 3px 5px 4px #000;
+    flex-direction: column;
+    color: #fff;
+    top: 70%;
+    left: 10%;
+}
+
+.src1{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.src2{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+.src3{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+.src4{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+
+.pro3{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro3.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 38%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro3 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    left: 10%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+.pro3 .content a{
+    transform: translateX(-105px);
+}
+
+.pro4{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro4.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 62%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro4 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+
+.pro4 .content a{
+    transform: translateX(-140px);
+}
+.pro5{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro5.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 38%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro5 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+
+.pro5 .content a{
+    transform: translateX(-140px);
+}
+
+.pro6{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro6.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 62%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro6 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+
+.pro6 .content a{
+    transform: translateX(-130px);
+}
+
+.pro7{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro7.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 38%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro7 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 20px;
+    display: flex;
+    top: 70%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+
+.pro7 .content a{
+    transform: translateX(-170px);
+}
+
+.pro8{
+    position: relative;
+    padding: 10px;
+    background-image: url('imges/Pro8.jpg');
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 62%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+}
+.pro8 .content{
+    position: absolute;
+    color:#fff;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 22px;
+    display: flex;
+    top: 60%;
+    display: flex;
+    left: 8%;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 3px 5px 4px #000;
+}
+
+.pro8 .content a{
+    transform: translateX(-150px);
+}
+.hh1{
+    transform: translateX(-70px);
+    /* font-size: 25px; */
+}
